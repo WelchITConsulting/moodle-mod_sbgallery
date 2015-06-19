@@ -38,7 +38,7 @@ class mod_sbgallery_mod_form extends moodleform_mod
 
         $this->standard_intro_elements();
 
-        $mform->addElement('header', 'galleryoptions', get_string('advanced'));
+        $mform->addElement('header', 'galleryoptions', get_string('galleryoptions', 'sbgallery'));
 
         $perpage = array(0   => get_string('showall', 'sbgallery'),
                          10  => get_string('show10', 'sbgallery'),
@@ -61,9 +61,9 @@ class mod_sbgallery_mod_form extends moodleform_mod
         $mform->addElement('select', 'captionpos', get_string('captionpos', 'sbgallery'), $captionpos);
         $mform->setType('captionpos', PARAM_INT);
 
-        $autoresize = array(AUTO_RESIZE_SCREEN => get_string('autoresizescreen', 'sbgallery'),
-                            AUTO_RESIZE_UPLOAD => get_string('upload'),
-                            AUTO_RESIZE_BOTH   => get_string('autoresizeboth', 'sbgallery'),);
+        $autoresize = array(SBG_AUTO_RESIZE_SCREEN => get_string('autoresizescreen', 'sbgallery'),
+                            SBG_AUTO_RESIZE_UPLOAD => get_string('upload'),
+                            SBG_AUTO_RESIZE_BOTH   => get_string('autoresizeboth', 'sbgallery'),);
         $resizegrp = array($mform->createElement('select', 'autoresize',
                                                  get_string('autoresize', 'sbgallery'),
                                                  $autoresize),

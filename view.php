@@ -79,6 +79,9 @@ if (count($options) > 0) {
     echo $OUTPUT->box(implode(' | ', $options), 'center');
 }
 
+
+
+
 echo $OUPTPUT->box_start('generalbox sbgallery clearfix');
 
 echo $OUTPUT->box_end()

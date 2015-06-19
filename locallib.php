@@ -20,9 +20,9 @@
  * Created  : 17 Jun 2015
  */
 
-define('AUTO_RESIZE_SCREEN', 1);
-define('AUTO_RESIZE_UPLOAD', 2);
-define('AUTO_RESIZE_BOTH', 3);
+define('SBG_AUTO_RESIZE_SCREEN', 1);
+define('SBG_AUTO_RESIZE_UPLOAD', 2);
+define('SBG_AUTO_RESIZE_BOTH', 3);
 
 
 function sbgallery_rss_enabled()

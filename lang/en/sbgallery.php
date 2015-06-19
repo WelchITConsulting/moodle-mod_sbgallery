@@ -34,10 +34,12 @@ $string['autoresizescreen']         = 'Screen';
 $string['captionfull']              = 'Display full caption text';
 $string['captionpos']               = 'Caption position';
 $string['comments']                 = 'Allow comments';
-$string['configenablerssfeeds']     = '';
-$string['configenablerssfeedsdesc'] = '';
+$string['configenablerssfeeds']     = 'Enable RSS Feeds';
+$string['configenablerssfeedsdesc'] = 'Allow RSS feeds to be generated from all the galleries defined';
 
 $string['extinfo']                  = 'Show extended image information';
+
+$string['galleryoptions']           = 'Gallery Options';
 
 $string['ispublic']                 = 'Make the gallery public';
 

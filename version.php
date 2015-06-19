@@ -22,9 +22,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2015061700;
+$plugin->version   = 2015061900;
 $plugin->requires  = 2015051100;
 $plugin->cron      = 0;
 $plugin->component = 'mod_sbgallery';
 $plugin->maturity  = MATURITY_BETA;
-$plugin->release   = 2015061700;
+$plugin->release   = 2015061900;

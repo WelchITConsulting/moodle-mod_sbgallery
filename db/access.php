@@ -68,8 +68,7 @@ $capabilities = array(
         'legacy'       => array(
             'editingteacher'  => CAP_ALLOW,
             'coursecreator'   => CAP_ALLOW,
-            'manager'         => CAP_ALLOW,
-            'sbenquirer'      => CAP_ALLOW
+            'manager'         => CAP_ALLOW
         )
     ),
 
