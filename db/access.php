@@ -83,5 +83,14 @@ $capabilities = array(
             'editingteacher'  => CAP_ALLOW,
             'manager'         => CAP_ALLOW
         )
+    ),
+
+    'mod/sbgallery:moderatecomments' => array(
+        'captype'      => 'write',
+        'contextlevel' => CONTEXT_MODULE,
+        'legacy'       => array(
+            'editingteacher'  => CAP_ALLOW,
+            'manager'         => CAP_ALLOW
+        )
     )
 );
